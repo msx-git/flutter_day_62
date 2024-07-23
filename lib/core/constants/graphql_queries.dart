@@ -1,4 +1,4 @@
-const String fetchProducts = """
+const String getProducts = """
 query {
   products(limit: 12, offset: 0) {
     id
